@@ -1,0 +1,29 @@
+{
+  "name": "@onxmaps/figma-plugin-create-rectangle",
+  "version": "1.0.0",
+  "description": "A FigJam plugin to count votes (stamps) near a sticky and show a tally on the page.",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.31.0",
+    "@types/node": "^17.0.18",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "css-loader": "^6.2.0",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^5.3.2",
+    "react-dev-utils": "^12.0.0",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.5.5",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

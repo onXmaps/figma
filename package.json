@@ -1,0 +1,16 @@
+{
+  "name": "@onxmaps/figma",
+  "private": true,
+  "scripts": {
+    "dev": "lerna run dev --parallel",
+    "plugins": "lerna run dev --parallel --scope @onxmaps/figma-plugin-*",
+    "widgets": "lerna run dev --parallel --scope @onxmaps/figma-widget-*"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "widgets/*",
+    "plugins/*"
+  ]
+}

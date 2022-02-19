@@ -1,0 +1,10 @@
+{
+  "name": "Table",
+  "id": "1076344480093480936",
+  "api": "1.0.0",
+  "editorType": ["figjam"],
+  "permissions": ["currentuser", "activeusers"],
+  "containsWidget": true,
+  "main": "dist/code.js",
+  "widgetApi": "1.0.0"
+}
